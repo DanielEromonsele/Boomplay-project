@@ -1,5 +1,5 @@
 import Download from "./Download";
-import Hero from "./Hero";
+// import Hero from "./Hero";
 // import Vercel from "./Vercel";
 // import Teams from "./Teams"
 // import Code from "./Code"
@@ -11,7 +11,7 @@ const HomeScreen = () => {
   return (
     <div>
       <Download/>
-      <Hero />
+      {/* <Hero /> */}
       
     </div>
   );

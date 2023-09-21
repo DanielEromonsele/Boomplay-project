@@ -43,7 +43,7 @@ font-size: 40px;
 font-weight: 800;
 text-align: center;
 line-height: 48px;
-font-family: sans-serif;
+font-family: Arial;
 `
 
 const Image1 = styled.div`
@@ -88,21 +88,23 @@ margin-bottom:10px;
 // background-color: blue;
 `
 const Box1 = styled.div`
-height: 400px;
+height: 380px;
 width: 500px;
 background-color: red;
 display: flex;
 align-items: center;
 justify-content: center;
+border-radius: 10px;
 `
 const Box = styled.div`
 height: 380px;
-width: 550px;
+width: 500px;
 background-color: #222222;
 display: flex;
 align-items: center;
 justify-content: center;
 flex-direction: column;
+border-radius: 10px;
 `
 const Boxes = styled.div`
 display: flex;
@@ -121,7 +123,7 @@ flex-direction: column;
 const Wrapper = styled.div`
 height: 100%;
 width: 100%;
-background-color: green;
+background-color: #121212;
 `
 
 const Container = styled.div`
