@@ -9,9 +9,8 @@ const Download = ()  => {
             <Container>
                 <Wrapper>
                     <Text>
-                        <Down>Download Boomplay
-                        <p>Enjoy millions of tracks on your devices</p>
-                        </Down>
+                        <Down>Download Boomplay</Down>
+                        <Div2>Enjoy millions of tracks on your devices</Div2>
                         
                     </Text>
 
@@ -45,15 +44,6 @@ font-weight: 800;
 text-align: center;
 line-height: 48px;
 font-family: sans-serif;
-p{
-    font-size: 20px;
-    color: rgba(255,255,255,.6);
-    padding-bottom: 5px;
-}
-display: flex;
-align-items: center;
-justify-content: center;
-flex-direction: column;
 `
 
 const Image1 = styled.div`
@@ -67,6 +57,12 @@ align-items: center;
 justify-content: center;
 `
 
+const Div2 = styled.div`
+color: grey;
+margin-top: 12px;
+text-align: center;
+font-size:20px;
+`
 const Div1 = styled.div`
 color: white;
 // margin-top: 12px;
@@ -120,6 +116,7 @@ align-items: center;
 justify-content: center;
 height: 200px;
 width: 100%;
+flex-direction: column;
 `
 const Wrapper = styled.div`
 height: 100%;
