@@ -2,6 +2,9 @@ import styled from "styled-components"
 import pix3 from "../Assets/both-removebg-preview.png"
 import pix from "../Assets/app_logo1.png"
 import pix2 from "../Assets/app_logo2.png"
+import pic1 from "../Assets/pc_step1.svg"
+import pic2 from "../Assets/pc_step2.svg"
+import pic3 from "../Assets/pc_step3.svg"
 
 const Download = ()  => {
     return(
@@ -28,6 +31,33 @@ const Download = ()  => {
                            <Image1> <Img src= {pix3}/></Image1>
                         </Box>
                     </Boxes>
+
+                    <Text>
+                        <Down>How to Install Boomplay for PC</Down>
+                        <Div2>Boomplay currently does not support a PC version for Windows or Mac, you can <br/>install Boomplay website to your computer from your browser.</Div2>
+                        
+                    </Text>
+
+                      <Step>
+                        <Boxes1>
+                            <Pic><Img src= {pic1}/></Pic>
+                            <Texts><h2>Step 1</h2>
+                            <p>Launch the Boomplay Website<br/> on a PC.</p>
+                            </Texts>
+                        </Boxes1>
+                        <Boxes2>
+                            <Pic><Img src= {pic2}/></Pic>
+                            <Texts><h2>Step 2</h2>
+                            <p>Click the "" icon in the<br/> browser's search bar.</p>
+                            </Texts>
+                        </Boxes2>
+                        <Boxes3>
+                            <Pic><Img src= {pic3}/></Pic>
+                            <Texts><h2>Step 3</h2>
+                            <p>From the pop-up window,<br/> select "Install".</p>
+                            </Texts>
+                        </Boxes3>
+                      </Step>
                 </Wrapper>
             </Container>
         </div>
@@ -35,6 +65,46 @@ const Download = ()  => {
 }
 
 export default Download;
+
+const Texts = styled.div`
+h2{
+    color:#00FFFF;
+}p{
+    color: #ffff;
+    font-size: 20px;
+}
+
+`
+const Pic = styled.div`
+
+`
+
+const Boxes3 = styled.div`
+width: 400px;
+height: 400px;
+// background-color: blue;
+`
+const Boxes2 = styled.div`
+width: 400px;
+height: 400px;
+// background-color: blue;
+`
+const Boxes1 = styled.div`
+width: 400px;
+height: 400px;
+// background-color: blue;
+`
+const Step = styled.div`
+height: 100%;
+width: 100%;
+background-color: #121212;
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 30px;
+border-radius:10px;
+margin-top: 20px;
+`
 
 const Down = styled.div`
 // padding: 30px 5% 0;
@@ -111,6 +181,7 @@ display: flex;
 align-items: center;
 justify-content: center;
 gap: 30px;
+margin: 30px 0px;
 `
 const Text = styled.div`
 display: flex;
